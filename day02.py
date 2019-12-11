@@ -2,7 +2,7 @@ import os
 import math
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-file = open(dir_path+'/day02_input.txt', 'r')
+file = open(dir_path+'/input/day02_input.txt', 'r')
 input_file1 = file.read().split(',')
 input_file2 = input_file1.copy()
  

@@ -2,7 +2,7 @@ import os
 import math
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-file = open(dir_path+'/day01_input.txt', 'r')
+file = open(dir_path+'/input/day01_input.txt', 'r')
 input = file.read().split('\n')
 		
 sum_star01 = 0

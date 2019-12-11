@@ -2,7 +2,7 @@ import os
 import math
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-file = open(dir_path+'/day04_input.txt', 'r')
+file = open(dir_path+'/input/day04_input.txt', 'r')
 input_file1 = file.read().split('-')
 
 r = range(int(input_file1[0]),int(input_file1[1]))
